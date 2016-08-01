@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+<title>
+</title>
+<body>
+  <select onclick="getData();">
+    <option>--select options--</option>
+    <option></option>
+  </select>
+  <script src="data.js"></script>
+  <script>
+function getData()
+{
+  for(var i=0;i<carJSON.length;i++)
+  {
+    alert(carJSON[i].brand);
+  }
+}
+  </script>
+</body>
+</html>
